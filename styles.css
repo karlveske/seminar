@@ -1,5 +1,6 @@
 body {
-    margin: 80
+    margin: 80px;
+    background-color: blue;
 }
 
 .red{
@@ -7,14 +8,42 @@ body {
 }
 .headline{
     font-size: 69px;
-}
-/*
-.home{
-    height: 100vh;
-    background-image: url("popcorn2tume.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    text-align: center;
 }
 
- <div class = "center"> */
+.image_home{
+    width: 200px;
+    height: 300px;
+    border: 15px solid orange;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates two equal columns */
+}
+
+.column {
+    padding: 20px; /* Optional spacing */
+}
+
+
+p {
+    font-family: "Comic Sans MS";
+
+}
+
+ul{
+    font-family: "Comic Sans MS";
+}
+table{
+    font-family: "Comic Sans MS";
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 3px
+}
+th{
+    background-color: red;
+}
