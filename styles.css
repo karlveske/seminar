@@ -1,0 +1,20 @@
+body {
+    margin: 80
+}
+
+.red{
+    color:red
+}
+.headline{
+    font-size: 69px;
+}
+/*
+.home{
+    height: 100vh;
+    background-image: url("popcorn2tume.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ <div class = "center"> */
